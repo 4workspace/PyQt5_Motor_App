@@ -10,6 +10,8 @@ class myApp(QtWidgets.QMainWindow):
         self.ui.setupUi(self)                   # test.py altında ki setupUi() fonksiyon çalıştırılıyor ki altında ki elemanlar aktrılsın
                                                 #self.ui ile test.py de ki elemanlar, metotlara ulaşılıyor.
         
+
+        
         self.InitUi()
         self.serial_ports()
         self.ui.onoffButton.clicked.connect(self.on_off_button)      #topla butonu için
@@ -45,6 +47,7 @@ class myApp(QtWidgets.QMainWindow):
             self.ui.comboPORT.addItem(ports.portName())
         
         """Arduinoya data gönderme"""
+        
 
         
 
