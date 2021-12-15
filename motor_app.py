@@ -47,7 +47,7 @@ class myApp(QtWidgets.QMainWindow):
             self.ui.comboPORT.addItem(ports.portName())
         
         """Arduinoya data gönderme"""
-        
+        """Arduinoya"""
 
         
 
